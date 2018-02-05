@@ -1,0 +1,24 @@
+{
+  "name": "task-labeler",
+  "version": "1.0.0",
+  "description": "Task Labeler Kata",
+  "main": "task-labeler.js",
+  "scripts": {
+    "test": "mocha ./**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dan-davidson-ps/task-labeler-kata.git"
+  },
+  "keywords": [
+    "Kata",
+    "Task",
+    "Labeler"
+  ],
+  "author": "Daniel Davidson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dan-davidson-ps/task-labeler-kata/issues"
+  },
+  "homepage": "https://github.com/dan-davidson-ps/task-labeler-kata#readme"
+}

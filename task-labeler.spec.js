@@ -1,3 +1,5 @@
+const taskTypes = require('../task-labeler')
+
 describe("Basic Tests", function(){
 it("It should works for basic tests.", function(){
 
