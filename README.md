@@ -34,7 +34,7 @@ Input/Output
 Constraints: 
 `1 ≤ deadlines.length ≤ 50, 1 ≤ deadlines[i] ≤ 18`.
 
-`[input]` integer day
+`[input]` integer `day`
 
 Constraints: `1 ≤ day ≤ 18`.
 
