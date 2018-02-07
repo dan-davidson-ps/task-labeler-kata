@@ -1,16 +1,22 @@
-const taskTypes = require('../task-labeler')
+const equal = require('assert').deepEqual
+const taskTypes = require('./task-labeler')
 
 describe("Basic Tests", function(){
-it("It should works for basic tests.", function(){
 
-Test.assertDeepEquals(tasksTypes([1, 2, 3, 4, 5],2) , [2, 3, 0])
+    console.log('taskTypes: ', taskTypes)
+    
+console.log("test", taskTypes([1,2,3,4,5],2))
 
-Test.assertDeepEquals(tasksTypes( [1, 2, 4, 2, 10, 3, 1, 4, 5, 4, 9, 8],1) ,[2,8,2] )
+it("It should work for basic tests.", function(){
 
-Test.assertDeepEquals(tasksTypes([1],1) ,[1, 0, 0] )
+    equal(taskTypes([1, 2, 3, 4, 5],2) , [2, 3, 0])
 
-Test.assertDeepEquals(tasksTypes([8],1) , [0, 1, 0])
+    equal(taskTypes( [1, 2, 4, 2, 10, 3, 1, 4, 5, 4, 9, 8],1) ,[2,8,2] )
 
-Test.assertDeepEquals(tasksTypes([4, 14, 16],7) , [1, 1, 1])
+    equal(taskTypes([1],1) ,[1, 0, 0] )
+
+    equal(taskTypes([8],1) , [0, 1, 0])
+
+    equal(taskTypes([4, 14, 16],7) , [1, 1, 1])
 
 })})

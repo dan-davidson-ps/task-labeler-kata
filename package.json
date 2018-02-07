@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/dan-davidson-ps/task-labeler-kata/issues"
   },
-  "homepage": "https://github.com/dan-davidson-ps/task-labeler-kata#readme"
+  "homepage": "https://github.com/dan-davidson-ps/task-labeler-kata#readme",
+  "dependencies": {
+    "assert": "^1.4.1"
+  }
 }
