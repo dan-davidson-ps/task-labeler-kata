@@ -3,9 +3,7 @@ const taskTypes = require('./task-labeler')
 
 describe("Basic Tests", function(){
 
-    console.log('taskTypes: ', taskTypes)
-    
-console.log("test", taskTypes([1,2,3,4,5],2))
+// console.log("test", taskTypes([1,2,3,4,5],2))
 
 it("It should work for basic tests.", function(){
 
